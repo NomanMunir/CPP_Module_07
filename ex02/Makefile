@@ -6,7 +6,7 @@
 #    By: nmunir <nmunir@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/04 13:36:11 by nmunir            #+#    #+#              #
-#    Updated: 2024/03/13 15:39:06 by nmunir           ###   ########.fr        #
+#    Updated: 2024/05/15 08:45:37 by nmunir           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CXXFLAGS = -std=c++98 -Wall -Wextra -Werror
 SRCS = main.cpp \
 
 OBJS = $(SRCS:.cpp=.o)
-TARGET = templates
+TARGET = array
 
 all: $(TARGET)
 
